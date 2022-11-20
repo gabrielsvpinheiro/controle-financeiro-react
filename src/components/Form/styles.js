@@ -21,3 +21,36 @@ export const InputContent = styled.div`
     display: flex;
     flex-direction: column;
 `;
+
+export const Label = styled.label``;
+
+export const Input = styled.input`
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+`;
+
+export const RadioGroup = styled.div`
+    display: flex;
+    align-items: center;
+
+    input {
+        margin-left: 20px;
+        margin-right: 5px;
+        accent-color: black;
+        margin-top: 0;
+    }
+`;
+
+export const Button = styled.button`
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+`;
